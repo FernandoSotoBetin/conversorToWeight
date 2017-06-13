@@ -1,0 +1,31 @@
+{
+  "name": "conversor-to-weight",
+  "version": "0.1.0",
+  "description": "conversor de unidades de peso. Libras a kilogramos y viceversa.",
+  "main": "dist/src/conversorToWeight.js",
+  "scripts": {
+    "build": "babel src/conversorToWeight.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoSotoBetin/conversorToWeight.git"
+  },
+  "keywords": [
+    "peso",
+    "conversor",
+    "weight",
+    "kilogramo"
+  ],
+  "author": "Fernando Soto <fersot7@gmail.com> (http://twitter.com/Fersot7)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FernandoSotoBetin/conversorToWeight/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
