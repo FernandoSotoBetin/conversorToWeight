@@ -5,7 +5,7 @@ Convierte de Libras a Kilogramos y viceversa.
 
 ## Descripción Del Paquete
 
-- Convierte un valor especificado de libra a. 
+- Convierte un valor especificado de libra a kilogramo. 
 - Convierte un valor especificado de kilogramo a libra.
 - En la función se envían 3 parámetros.
 - Parámetros: Unidad 1, Unidad 2 y Cantidad. 
@@ -21,17 +21,17 @@ Convierte de Libras a Kilogramos y viceversa.
 ## Instalación
 
 ```
-npm install conversor-to-weight
+npm install --save conversor-to-weight
 
 ```
 
 ## Uso
 
 ```
-import converTo from 'conversor-to-weight'
+var foo = require('conversor-to-weight')
 
-converTo('lb', 'kg', 2) // Convierte de libras a kilogramos
-converTo('kg', 'lb', 2) // Convierte de kilogramos a libras
+foo.converTo('lb', 'kg', 2) // Convierte de libras a kilogramos
+foo.converTo('kg', 'lb', 2) // Convierte de kilogramos a libras
 
 ```
 

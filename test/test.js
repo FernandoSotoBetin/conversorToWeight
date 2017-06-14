@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const weight = require('..').default
+const weight = require('..').converTo
 
 describe('#weight', function () {
 

@@ -1,6 +1,6 @@
 {
   "name": "conversor-to-weight",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "conversor de unidades de peso. Libras a kilogramos y viceversa.",
   "main": "dist/src/conversorToWeight.js",
   "scripts": {
