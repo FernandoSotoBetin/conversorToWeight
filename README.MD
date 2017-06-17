@@ -1,6 +1,6 @@
 # ConverorToWeigh
 
-ConversorToWeight es un conversor de unidades de medidadas de peso. 
+ConversorToWeight es un conversor de unidades de medidas de peso. 
 Convierte de Libras a Kilogramos y viceversa.
 
 ## Descripción Del Paquete
